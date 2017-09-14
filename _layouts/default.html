@@ -14,6 +14,8 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 and is wrapped around the whole page content, except for the footer in this example -->
 <div class="w3-content" style="max-width:1400px">
 
+{% include header.html %}
+
 {{ content }}
 
 
@@ -21,7 +23,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 <!-- END w3-content -->
 </div>
 
-
+{% include footer.html %}
 
 </body>
 </html>
