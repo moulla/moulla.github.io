@@ -1,3 +1,7 @@
+---
+project_tagline: Hank Quinlan, Horrible Cop
+---
+
 ## Welcome to GitHub Pages
 
 Hi mom
