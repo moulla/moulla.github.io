@@ -1,9 +1,14 @@
+added content
+
+[back to index](/index.html)
+
+or
+
+[back to index ({% link _collection/index.md %})
+
+
+
 ## Welcome to GitHub Pages
-
-Hi mom
-
-[test](/test.html)
-
 
 You can use the [editor on GitHub](https://github.com/moulla/moulla.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
