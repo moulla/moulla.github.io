@@ -1,6 +1,6 @@
 ---
 layout: frontpage
-title: Cygnophobia - Fear of swans
+title: Cygnophobia - Fear of Black Swans
 ---
 
 
