@@ -1,11 +1,27 @@
 <!-- Blog entries -->
 <div class="w3-col l8 s12">
+  {% for post in site.posts %}
+    <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="{{ post.header_image }}" alt="" style="width:100%">
+    <div class="w3-container">
+      <h3><b>{{post.title}}</b></h3>
+      <h5>{{post.title_desc}}, <span class="w3-opacity">{{post.pub_date}}</span></h5>
+    </div>
 
-{% include blog_entry.html %}
-
- <hr>
-
-{% include blog_entry.html %}
-
+    <div class="w3-container">
+      {{post.excerpt}}
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><a href="{{ post.url }}" class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></a></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right">Comments are disabled<span class="w3-tag"></span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  {% endfor %}
 <!-- END BLOG ENTRIES -->
 </div>

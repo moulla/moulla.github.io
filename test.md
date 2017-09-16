@@ -1,11 +1,8 @@
 ---
-layout: full
-title: test
+layout: frontpage
+title: Cygnophobia - Fear of swans
 ---
 
-
-
-[test](/test.html)
 
 
 

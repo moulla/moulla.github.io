@@ -1,11 +1,8 @@
 ---
-layout: default
-title: landing page
+layout: frontpage
+title: Cygnophobia - Fear of swans
 ---
 
 
-[test](/test.html)
-
-{{site.markdown}}
 
 
