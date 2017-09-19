@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Database Architecture for ML
-title_desc: Adapted from Robert Blumen interview with Dr Michael Stonebreaker
+title_desc: Adapted from a Robert Blumen interview with Dr Michael Stonebreaker
 header_image : /images/dbase_market.png
 pub_date: 17 Sep 2017
-abstract: Databases(Dr Michael Stonbraker)
+abstract: Databases(Dr Michael Stonebraker)
 tags:
 - Database
 - OLTP
