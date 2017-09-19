@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Gaussian Processes for Financial Time Series
+title: Gaussian Processes
 title_desc: Part 1 of an introductory series
 header_image : /images/predictive.png
 pub_date: 16 Sep 2017
@@ -12,4 +12,4 @@ tags:
 ---
 
 
-lorem ipsum gamma
+[GP jupyter demo]({{site.url}}/jupyter_notebooks/GP_Demo.ipynb)
