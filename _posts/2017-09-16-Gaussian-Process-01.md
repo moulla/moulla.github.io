@@ -12,4 +12,4 @@ tags:
 ---
 
 
-[GP jupyter demo]({{site.url}}/jupyter_notebooks/GP_Demo.ipynb)
+[GP jupyter demo](https://github.com/moulla/moulla.github.io/blob/master/jupyter_notebooks/GP_Demo.ipynb)
