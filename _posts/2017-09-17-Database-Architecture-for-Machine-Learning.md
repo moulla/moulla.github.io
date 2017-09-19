@@ -16,12 +16,12 @@ tags:
 ---
 In searching for a low level database education with which to evaluate the typical architecture fanboy battles and based on my interest in what [Tamr](https://www.tamr.com) is trying to achieve as a prerequisite to data science and applied machine learning solutions I turned to Dr Michael Stonebraker.
 
-Applied Databasing technology is somewhat lacking from academic data science and machine learning education.  I've summarised the useful insights from the talk but highly recommend you listen yourself if you want a concise and balanced overview on the state of modern database technology. (Stonebraker has multiple vested interests including VoltDB having started 9 VC backed companies)
+Applied Databasing technology is somewhat lacking from academic data science and machine learning education.  I've summarised the useful insights from the talk but highly recommend you listen yourself if you want a concise and balanced overview on the state of modern database technology.
 
-Dr Stonebraker likes making the odd controversial generalisation, but he knows a lot more about database technology than I.
+Dr Stonebraker has multiple vested interests including VoltDB having started 9 VC backed companies but while opinionated provides excellent rationales for his views and knows a lot more about database technology than I.
 
 So which database vendor/philosophy should you choose?  The answer is: it depends.  Every efficiency gain is a trade-off and which is best depends on the problem the database is solving.  The primary concern should be high availability with scaleout.
-s
+
 Firstly,the the traditional Relational DataBase Manangment System generally stores data on disk in blocks/clusters in a serial manner with a buffer pool in memory using locking, write ahead logs for recovery and B-trees for indexing and record locking for consistency.
 
 
