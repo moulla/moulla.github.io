@@ -25,15 +25,19 @@ So which database vendor/philosophy should you choose?  The answer is: it depend
 Firstly,the the traditional Relational DataBase Manangment System generally stores data on disk in blocks/clusters in a serial manner with a buffer pool in memory using locking, write ahead logs for recovery and B-trees for indexing and record locking for consistency.
 
 
-Traditional RDBMS solutions use a serial disk block store, generally storing recods sequentially on disk in formats like:
+Traditional RDBMS solutions use a serial disk block store, generally storing records sequentially on disk in formats like:
 
-{index:bitmap:fixed length fields:var length fields}
+<div class='w3-card'>
+<img src="/images/disk_block.png" alt="Disk Blocks" style="width:100%">
+</div>
 
 with a buffer pool in memory in disk block format with concurrency via record locking and write ahead log for ACID(atomicity, consistency, isolation, durability) and crash recovery using Btrees for indexing, with query and query optimisation.
 
 Dr Stonebrakers view is that where large scale multi node architectures are required RDBMS will migrate to three segments, namely Data Warehousing ,OnLine Transaction Processing and the rest (nosql, graphdb, array, mapReduce).
 
-![Database Segments]({{ site.url }}/images/dbase_market.png)
+<div class='w3-card'>
+<img src="/images/dbase_market.png" alt="Database Segments" style="width:100%">
+</div>
 
 
 The first two pieces being optimally adressed by Column Stores and Main Memory Databasing.  While the RDBMS Foreign Keys are powerful they are expensive in scalable applications.  This migration has yet to show up significantly in revenues with many RDBMS vendors adopting elements of the succesful contenders into their products.
@@ -46,7 +50,7 @@ buffer pool : use main memory db
 
 locking - optimistic multiversion concurrency control(check only at end if there is a problem and repeat vs prevent problem) or transaction ordering(timestamp or other).
 
-write ahead log: use command logging -which defers cost to post crash recovery time
+write ahead log: use command logging - which defers cost to post crash recovery time
 
 threaded: no threading/segment memory or latch free shared data structures
 
