@@ -26,13 +26,13 @@ Solutions to clean structured data are analogous:
 </div>
 
 
-* **Collect it**:  Like rainwater, clean data falls from the sky and if you have the foresight to collect and segregate it before it is needed then analytics is straightforward. This results in instantly structured data at the marginal cost of storage. Not building your future projects in a manner that stores the data is flushing this data down the toilet.
+* **Collect it**: Like rainwater, clean data falls from the sky and if you have the foresight to collect and segregate it before it is needed then analytics is straightforward. This results in instantly structured data at the marginal cost of storage. Not building your future projects in a manner that stores the data is flushing this data down the toilet.
 
 * **Keep it Clean**: Once you have clean data, don't pollute it.  That includes by refining it - what you throw away will prove to be the essential field to your future ML ambitions. Drinking distilled water is not good for you and this is true of data too.
 
 or
 
-* **Clean it**:Drinking sea water is bad, and making it drinkable is costly. Just because it is abundant, you are fooling yourself if you think the data is free.  Pre processing is essential, time consuming, and the bulk of your ML project cost. The infrastructure behind the water that comes out of your tap is running all the time, requires constant maintenance and upgrades, and a lot of the time amounts to paying a third party to collect the rainwater.
+* **Clean it**: Drinking sea water is bad, and making it drinkable is costly. Just because it is abundant, you are fooling yourself if you think the data is free.  Pre processing is essential, time consuming, and the bulk of your ML project cost. The infrastructure behind the water that comes out of your tap is running all the time, requires constant maintenance and upgrades, and a lot of the time amounts to paying a third party to collect the rainwater.
 
 <div class='w3-card'>
 <img src="/images/Gibraltar_East_Side_Water_Catchments_in_1992.jpg" alt="Gibralter Rainwater collection" style="width:100%">
