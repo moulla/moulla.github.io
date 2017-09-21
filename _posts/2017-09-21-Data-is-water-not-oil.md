@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data is the new Oil?
-title_desc: Odyous of olde been comparisonis, And of comparisonis engendyrd is haterede.
+title_desc: Odyous of olde been comparisonis, and of comparisonis engendyrd is haterede
 header_image : /images/oil-platform-960x250.jpg
 pub_date: 21 Sep 2017
 abstract: Potable Data
