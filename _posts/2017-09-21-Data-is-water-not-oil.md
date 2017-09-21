@@ -12,7 +12,7 @@ tags:
 - Opinion
 ---
 
-Hype is the part of most marketing plans, creating a need for products and services.  Making comparisions with other valuable resources implies great value for the propostion.  If data is oil then at best it is expensive shale oil and at worst worthless snake oil.
+Hype is part of most marketing plans, creating a need for products and services - AI Hype likes comparing data with oil.  Making comparisions with other valuable resources implies great value in driling for insight in the data.  If data is oil then at best it is expensive shale oil and at worst worthless snake oil.
 
 If an analogy for Data is needed then the most fitting is not Oil, but Water. Data is abundant and freely available, it comes in 'lakes' and 'oceans', doesn't take millenia to create, is a processed and public utility yet many pay money for it to be delivered to them in branded bottles.
 
