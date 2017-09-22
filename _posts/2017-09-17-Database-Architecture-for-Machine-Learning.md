@@ -57,7 +57,7 @@ PS Stonebraker is not a fan of Hadoop except for 'embarrassingly' parallel NLP s
 
 He describes Hadoop as the stack of HDFS file system, the mapReduce layer and Hive query tools and his critique is that other than for truly non-parallel loads queries in Hive on stack runs slower than alternative parallel data warehouse systems noting that Impala is Hive minus MapReduce.
 
-Adapted from the  [Software Engineering Radio Podcast interview with Michael Stonebraker](http://www.se-radio.net/2013/12/episode-199-michael-stonebraker) originally published 5 Dec 2013
+<span class="w3-opacity" markdown="1">Adapted from the  [Software Engineering Radio Podcast interview with Michael Stonebraker](http://www.se-radio.net/2013/12/episode-199-michael-stonebraker) originally published 5 Dec 2013</span>
 
 ## Further Reading: ##
 
