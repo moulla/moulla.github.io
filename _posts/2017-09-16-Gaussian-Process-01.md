@@ -11,8 +11,8 @@ tags:
 - C++
 ---
 
-Demostrating a basic gaussian process fitting of an unknown fuction, this will be expanded to demonstrate the hyper-parameter search difficulties and issues with cross validation in a temporal setting.
+Demonstrating a basic Gaussian process fitting of an unknown function, this will be expanded to demonstrate the hyper-parameter search difficulties and issues with cross validation in a temporal setting.
 
-Temporarily implemented in a jupyter notebook until I can figure out how to do linear algebra in javascript in browser ideally without having to resort to emscripten to complile c++
+Temporarily implemented in a jupyter notebook until I can figure out how to do linear algebra in JavaScript in browser ideally without having to resort to emscripten to compile c++
 
 [GP jupyter demo](https://github.com/moulla/moulla.github.io/blob/master/jupyter_notebooks/GP_Demo.ipynb)
