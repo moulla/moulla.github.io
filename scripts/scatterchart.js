@@ -9,11 +9,11 @@ var margin = {top: 20, right: 15, bottom: 60, left: 60}
 
 // x and y scales, I've used linear here but there are other options
 // the scales translate data values to pixel values for you
-var x = d3.scale.linear()
+var x = d3.scaleLinear()
           .domain([0, d3.max(xdata)])  // the range of the values to plot
           .range([ 0, width ]);        // the pixel range of the x-axis
 
-var y = d3.scale.linear()
+var y = d3.scaleLinear()
           .domain([0, d3.max(ydata)])
           .range([ height, 0 ]);
 
@@ -32,9 +32,8 @@ var main = chart.append('g')
 .attr('class', 'main')   
 
 // draw the x axis
-var xAxis = d3.svg.axis()
-.scale(x)
-.orient('bottom');
+
+var xAxis = d3.axisBottom(x);
 
 main.append('g')
 .attr('transform', 'translate(0,' + height + ')')
@@ -42,9 +41,7 @@ main.append('g')
 .call(xAxis);
 
 // draw the y axis
-var yAxis = d3.svg.axis()
-.scale(y)
-.orient('left');
+var yAxis = d3.axisLeft(y);
 
 main.append('g')
 .attr('transform', 'translate(0,0)')

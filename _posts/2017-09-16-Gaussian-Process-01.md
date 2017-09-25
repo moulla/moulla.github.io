@@ -16,3 +16,5 @@ Demonstrating a basic Gaussian process fitting of an unknown function, this will
 Temporarily implemented in a jupyter notebook until I can figure out how to do linear algebra in JavaScript in browser ideally without having to resort to emscripten to compile c++
 
 [GP jupyter demo](https://github.com/moulla/moulla.github.io/blob/master/jupyter_notebooks/GP_Demo.ipynb)
+
+[link](/test_d3.html)
