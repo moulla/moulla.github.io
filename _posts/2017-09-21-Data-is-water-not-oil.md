@@ -5,6 +5,7 @@ title_desc: If data is oil then at best it is expensive shale oil and at worst w
 header_image : /images/oil-platform-960x250.jpg
 pub_date: 21 Sep 2017
 abstract: Potable Data
+tweet_id: 923490543858053120
 tags:
 - Data Lake
 - Unstructured Data

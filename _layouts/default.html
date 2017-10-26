@@ -10,8 +10,9 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </style>
 {% if jekyll.environment == 'production' %}
 {% include google_anal.html %}
-{% endif %} 
+{% endif %}
 
+{% include twitter_script.html %}
 <body class="w3-light-grey">
 
 <!-- w3-content defines a container for fixed size centered content, 
@@ -22,6 +23,13 @@ and is wrapped around the whole page content, except for the footer in this exam
   <div class="w3-content">
     <div class="w3-content" style="max-width:800px">
       {{ content }}
+      <br>
+      <p>Continue the conversation {% if page.tweet_id == null %}
+	<a class="twitter-mention-button" href="https://twitter.com/intent/tweet?screen_name=cygnophobia" data-url="{{site.url}}{{ page.url }}">on Twitter</a>
+	{% else %}
+	<a href="https://twitter.com/intent/tweet?in_reply_to={{ page.tweet_id }}">on Twitter</a>
+	{% endif %}
+      </p>
     </div>
   </div>
 

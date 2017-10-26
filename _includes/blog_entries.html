@@ -13,10 +13,19 @@
       {{post.excerpt}}
       <div class="w3-row">
         <div class="w3-col m8 s12">
-          <p><a href="{{ post.url }}" class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></a></p>
+           <p><a href="{{ post.url }}" class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></a></p>
         </div>
         <div class="w3-col m4 w3-hide-small">
-          <p><span class="w3-padding-large w3-right">Comments are disabled<span class="w3-tag"></span></span></p>
+          <p><span class="w3-padding-large w3-right">
+	      {% if post.tweet_id == null %}
+	      <a class="twitter-mention-button" href="https://twitter.com/intent/tweet?screen_name=cygnophobia">Comment</a>
+	      {% else %}
+	      <a href="https://twitter.com/intent/tweet?in_reply_to={{ post.tweet_id }}"  data-size="large">Comment<link rel="canonical" href="{{ post.url }}"></a>
+	      {% endif %}
+</a>
+	      
+	  </span>
+	<span class="w3-tag"></span></span></p>
         </div>
       </div>
     </div>
