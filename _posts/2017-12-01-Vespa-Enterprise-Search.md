@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Opensource Vespa Enterprise Search
-title_desc: Yahoo open-sourced Vespa.ai in September. We've been working with it since.
+title_desc: Yahoo open-sourced Vespa.ai in September. We've been working with it since
 header_image : /images/vespa-out-of-the-box_960x250.jpg
 pub_date: 01 Dec 2017
 abstract: Introducing Yahoo's Vespa.ai
-tweet_id: 0
+tweet_id: 936694266553913344
 tags:
 - Data Lake
 - Unstructured Data
