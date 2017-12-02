@@ -17,7 +17,7 @@ Vespa is Yahoo's 'big data serving engine' and it was open sourced it in Septemb
 
 Not being part of the Yahoo team, we don't know where the name came from but we'd hazard a guess that v**ES**pa originated in Enterprise Search.  If you want to read more about it's origins then look at the [reddit ama](https://www.reddit.com/r/programming/comments/72r7uq/yahoo_open_sources_its_search_engine_vespa/) from Jon Bratseth.  You can even ask the Vespa team yourself <a class="twitter-mention-button" href="https://twitter.com/intent/tweet?screen_name=vespaengine">Twitter</a>
 
-It exists as an alternative to ElasticSearch and Lucene, platforms we don't have a lot of ES experience, so we'll point you [elsewhere](http://opensourceconnections.com/blog/2017/10/06/vespa-vs-lucene-initial-impressions/){:target="_blank"} for some comparisons which seem positive and agree with our initial conclusions.  The other benefit right out of the box is **instant scale**.
+It exists as an alternative to ElasticSearch and Lucene, platforms where we don't have a lot of ES experience, so we'll point you [elsewhere](http://opensourceconnections.com/blog/2017/10/06/vespa-vs-lucene-initial-impressions/){:target="_blank"} for some comparisons which seem positive and agree with our initial conclusions.  The other benefit right out of the box is **instant scale**.
 
 Vespa is a container for JDisc components that runs in a docker(or Vagrant (or god forbid Windows)) container which you can run locally or on a cloud container - Inception much? Once you get comfortable with accessing the various layers management is straight - forward using the included command tools.
 <div class='w3-card'>
